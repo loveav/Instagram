@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.love.myapplication.Main3Activity">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="584dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@drawable/d"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="mainClick"
+                app:srcCompat="@drawable/z" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="5dp"
+                android:text="nina_photo"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="7dp"
+                app:srcCompat="@drawable/k" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:background="@drawable/da"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="95dp"
+                android:layout_height="85dp"
+                app:srcCompat="@drawable/ab" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="wrap_content"
+                android:layout_height="97dp"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/ac" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/da"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:layout_weight="0.64">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nina"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARIS | MTL"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="382dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_weight="0.64">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageButton
+                        android:id="@+id/imageButton24"
+                        android:layout_width="47dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        app:srcCompat="@drawable/af" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton26"
+                        android:layout_width="52dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        app:srcCompat="@drawable/ae" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton25"
+                        android:layout_width="46dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_weight="0.01"
+                        app:srcCompat="@drawable/ad" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="494dp"
+                    android:layout_height="333dp"
+                    android:layout_weight="1.04"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="370dp"
+                        android:layout_height="365dp"
+                        android:layout_weight="0.16"
+                        app:srcCompat="@drawable/ah" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
