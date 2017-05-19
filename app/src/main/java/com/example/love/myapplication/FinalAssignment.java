@@ -27,6 +27,11 @@ public class FinalAssignment extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void mainClick4(View view) {
+        Intent intent = new Intent(this, Main7Activity.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -8,8 +8,8 @@
     tools:context="com.example.love.myapplication.Main2Activity">
 
     <LinearLayout
-        android:layout_width="427dp"
-        android:layout_height="598dp"
+        android:layout_width="426dp"
+        android:layout_height="691dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -31,7 +31,7 @@
 
             <ImageButton
                 android:id="@+id/imageButton17"
-                android:layout_width="50dp"
+                android:layout_width="47dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="150dp"
@@ -51,7 +51,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="370dp"
+            android:layout_marginTop="450dp"
             android:orientation="horizontal"
             android:weightSum="1">
 
@@ -59,7 +59,7 @@
                 android:id="@+id/imageButton19"
                 android:layout_width="60dp"
                 android:layout_height="64dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
                 app:srcCompat="@drawable/cb" />
 

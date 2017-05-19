@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.love.myapplication.Main3Activity">
+    tools:context="com.example.love.myapplication.Main7Activity">
 
     <LinearLayout
         android:layout_width="423dp"
@@ -24,36 +24,44 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="34dp"
+            android:layout_height="30dp"
             android:layout_marginBottom="0.3dp"
+            android:layout_weight="0.47"
             android:background="@drawable/d"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="1">
 
             <ImageView
                 android:id="@+id/imageView19"
-                android:layout_width="wrap_content"
+                android:layout_width="39dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
                 android:clickable="true"
                 android:onClick="mainClick"
-                app:srcCompat="@drawable/z" />
+                app:srcCompat="@drawable/pa" />
 
             <TextView
                 android:id="@+id/textView20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="115dp"
+                android:layout_width="167dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="80dp"
                 android:layout_marginTop="5dp"
-                android:text="nina_photo"
+                android:layout_weight="0.01"
+                android:background="@drawable/pb"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView20"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="112dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="70dp"
                 android:layout_marginTop="7dp"
-                app:srcCompat="@drawable/k" />
+                android:layout_weight="0.02"
+                android:clickable="true"
+                android:onClick="mainClick1"
+                app:srcCompat="@drawable/pc" />
         </LinearLayout>
 
         <LinearLayout
@@ -67,45 +75,97 @@
                 android:layout_width="95dp"
                 android:layout_height="85dp"
                 android:layout_marginLeft="3dp"
-                app:srcCompat="@drawable/ab" />
+                app:srcCompat="@drawable/pd" />
 
             <ImageView
                 android:id="@+id/imageView18"
                 android:layout_width="288dp"
                 android:layout_height="97dp"
                 android:layout_marginLeft="15dp"
-                app:srcCompat="@drawable/ac" />
+                app:srcCompat="@drawable/pe" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.13"
+            android:layout_weight="0.26"
             android:background="@drawable/da"
             android:orientation="vertical"
-            android:paddingLeft="12dp">
+            android:paddingLeft="12dp"
+            android:weightSum="1">
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nina"
+                android:text="Love"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView19"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="392dp"
                 android:layout_height="wrap_content"
-                android:text="PARIS | MTL"
-                android:textSize="18sp" />
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sikh"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    app:srcCompat="@drawable/pf" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="want to do that, who nobody did"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    app:srcCompat="@drawable/pg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="at cegep gaspesie montreal campus"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:id="@+id/imageView43"
+                    android:layout_width="104dp"
+                    android:layout_height="23dp"
+                    app:srcCompat="@drawable/ph" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="186dp"
+                android:layout_height="wrap_content"
+                android:text="tag #singh_street_style4" />
+
         </LinearLayout>
 
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:layout_marginTop="0.5dp"
-            android:layout_weight="0.79">
+            android:layout_weight="0.19">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -125,39 +185,46 @@
                         android:id="@+id/imageButton24"
                         android:layout_width="47dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginRight="40dp"
+                        android:layout_marginLeft="30dp"
                         app:srcCompat="@drawable/af" />
 
                     <ImageButton
                         android:id="@+id/imageButton26"
                         android:layout_width="52dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
-                        android:layout_marginRight="40dp"
+                        android:layout_marginLeft="60dp"
                         app:srcCompat="@drawable/ae" />
 
                     <ImageButton
                         android:id="@+id/imageButton25"
                         android:layout_width="46dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="40dp"
+                        android:layout_marginLeft="60dp"
                         android:layout_weight="0.01"
                         app:srcCompat="@drawable/ad" />
+
+                    <ImageView
+                        android:id="@+id/imageView40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/pl" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="408dp"
+                    android:layout_height="368dp"
                     android:orientation="horizontal"
                     android:weightSum="1">
 
                     <ImageView
                         android:id="@+id/imageView21"
                         android:layout_width="424dp"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/ah" />
+                        android:layout_height="362dp"
+                        app:srcCompat="@drawable/pm" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -165,13 +232,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="41dp"
+            android:layout_height="43dp"
+            android:layout_weight="0.20"
             android:background="@drawable/d"
             android:orientation="horizontal"
             android:weightSum="1"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="591dp"
-            android:layout_weight="0.20">
+            tools:layout_editor_absoluteY="591dp">
 
             <ImageButton
                 android:id="@+id/imageButton9"
@@ -181,6 +248,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="33dp"
                 android:layout_marginTop="5dp"
+                android:onClick="mainClick"
                 app:srcCompat="@drawable/p" />
 
             <ImageButton
@@ -213,11 +281,16 @@
 
             <ImageButton
                 android:id="@+id/imageButton13"
-                android:layout_width="45dp"
-                android:layout_height="41dp"
-                android:layout_marginBottom="5dp"
-                android:layout_marginTop="7dp"
-                app:srcCompat="@drawable/t" />
+                android:layout_width="40dp"
+                android:layout_height="44dp"
+                android:paddingBottom="-5dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/pn"
+                tools:layout_editor_absoluteX="275dp"
+                tools:layout_editor_absoluteY="372dp"
+                android:layout_weight="0.04" />
+
         </LinearLayout>
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
