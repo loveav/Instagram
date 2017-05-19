@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.love.myapplication.Main8Activity">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="674dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571">
+
+        <ImageButton
+            android:id="@+id/imageButton28"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/sa"
+            android:layout_weight="0.17" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_marginBottom="-5dp"
+            android:background="@drawable/db"
+            android:orientation="horizontal"
+            android:paddingBottom="-15dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="69dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="0.01"
+                app:srcCompat="@drawable/sb" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:srcCompat="@drawable/sc" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="69dp"
+                android:layout_height="99dp"
+                android:layout_marginRight="15dp"
+                app:srcCompat="@drawable/sg" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.22"
+                android:paddingTop="3dp"
+                app:srcCompat="@drawable/sh" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="26dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="-5dp"
+                android:layout_weight="0.25"
+                android:paddingRight="-10dp"
+                android:paddingTop="5dp"
+                app:srcCompat="@drawable/si" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:layout_weight="0.34"
+            app:srcCompat="@drawable/sd" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_weight="0.92"
+            app:srcCompat="@drawable/se" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:background="@drawable/d"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="591dp">
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="42dp"
+                android:layout_height="41dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="33dp"
+                android:layout_marginTop="5dp"
+                android:onClick="mainClick"
+                app:srcCompat="@drawable/p" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="33dp"
+                android:layout_marginTop="5dp"
+                android:onClick="mainClick2"
+                app:srcCompat="@drawable/q" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="49dp"
+                android:layout_height="47dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="33dp"
+                android:layout_marginTop="5dp"
+                android:onClick="mainClick5"
+                app:srcCompat="@drawable/r" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="45dp"
+                android:layout_height="38dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="33dp"
+                android:layout_marginTop="8dp"
+                android:onClick="mainClick3"
+                app:srcCompat="@drawable/s" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="45dp"
+                android:layout_height="41dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="mainClick4"
+                app:srcCompat="@drawable/t" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

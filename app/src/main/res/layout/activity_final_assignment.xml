@@ -625,6 +625,7 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginRight="33dp"
                 android:layout_marginTop="5dp"
+                android:onClick="mainClick5"
                 app:srcCompat="@drawable/q" />
 
             <ImageButton
@@ -644,6 +645,7 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginRight="33dp"
                 android:layout_marginTop="8dp"
+                android:onClick="mainClick6"
                 app:srcCompat="@drawable/s" />
 
             <ImageButton

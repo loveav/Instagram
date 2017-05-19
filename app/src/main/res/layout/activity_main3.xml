@@ -181,6 +181,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="33dp"
                 android:layout_marginTop="5dp"
+                android:onClick="mainClick4"
                 app:srcCompat="@drawable/p" />
 
             <ImageButton
@@ -190,6 +191,7 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginRight="33dp"
                 android:layout_marginTop="5dp"
+                android:onClick="mainClick2"
                 app:srcCompat="@drawable/q" />
 
             <ImageButton
@@ -209,6 +211,7 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginRight="33dp"
                 android:layout_marginTop="9dp"
+                android:onClick="mainClick3"
                 app:srcCompat="@drawable/s" />
 
             <ImageButton
@@ -217,6 +220,7 @@
                 android:layout_height="41dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="7dp"
+                android:onClick="mainClick1"
                 app:srcCompat="@drawable/t" />
         </LinearLayout>
     </LinearLayout>
