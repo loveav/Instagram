@@ -111,7 +111,7 @@
             <TextView
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="15dp"
                 android:paddingLeft="10dp"
                 android:text="FOLLOW PEOPLE"
@@ -191,7 +191,7 @@
                     android:layout_weight="0.89"
                     android:paddingTop="7dp"
                     android:text="Contacts"
-                    android:textSize="18sp" />
+                    android:textSize="20sp" />
 
                 <ImageView
                     android:id="@+id/imageView28"
@@ -213,7 +213,7 @@
             <TextView
                 android:id="@+id/textView29"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="15dp"
                 android:paddingLeft="10dp"
                 android:text="ACCOUNT"
@@ -241,7 +241,7 @@
                     android:layout_marginTop="3dp"
                     android:paddingLeft="10dp"
                     android:text="Story Settings"
-                    android:textSize="18sp" />
+                    android:textSize="20sp" />
 
                 <ImageView
                     android:id="@+id/imageView45"
@@ -276,7 +276,7 @@
                     android:layout_marginTop="5dp"
                     android:paddingLeft="10dp"
                     android:text="Edit Profile"
-                    android:textSize="18sp" />
+                    android:textSize="20sp" />
 
                 <ImageView
                     android:id="@+id/imageView46"
@@ -312,7 +312,7 @@
                     android:layout_weight="0.19"
                     android:paddingLeft="10dp"
                     android:text="Change Password"
-                    android:textSize="18sp" />
+                    android:textSize="20sp" />
 
                 <ImageView
                     android:id="@+id/imageView47"
@@ -347,7 +347,7 @@
                     android:layout_marginTop="5dp"
                     android:paddingLeft="10dp"
                     android:text="Posts You've Liked"
-                    android:textSize="18sp" />
+                    android:textSize="20sp" />
 
                 <ImageView
                     android:id="@+id/imageView48"
@@ -382,7 +382,7 @@
                     android:layout_marginTop="5dp"
                     android:paddingLeft="10dp"
                     android:text="Two-Factor Authentication"
-                    android:textSize="18sp" />
+                    android:textSize="20sp" />
 
                 <ImageView
                     android:id="@+id/imageView49"
@@ -417,7 +417,7 @@
                     android:layout_marginTop="5dp"
                     android:paddingLeft="10dp"
                     android:text="Blocked Users"
-                    android:textSize="18sp" />
+                    android:textSize="20sp" />
 
                 <ImageView
                     android:id="@+id/imageView50"
@@ -452,7 +452,7 @@
                     android:layout_marginTop="5dp"
                     android:paddingLeft="10dp"
                     android:text="Switch To Buisness Profile"
-                    android:textSize="18sp" />
+                    android:textSize="20sp" />
 
                 <ImageView
                     android:id="@+id/imageView51"
